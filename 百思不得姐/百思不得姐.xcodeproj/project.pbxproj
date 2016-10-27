@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		1FDA22011DC1A33B0097E3DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA22001DC1A33B0097E3DB /* main.m */; };
 		1FDA22041DC1A33B0097E3DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA22031DC1A33B0097E3DB /* AppDelegate.m */; };
-		1FDA220A1DC1A33B0097E3DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA22081DC1A33B0097E3DB /* Main.storyboard */; };
 		1FDA220C1DC1A33B0097E3DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA220B1DC1A33B0097E3DB /* Assets.xcassets */; };
 		1FDA221A1DC1A33C0097E3DB /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA22191DC1A33C0097E3DB /* _____Tests.m */; };
 		1FDA22251DC1A33C0097E3DB /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA22241DC1A33C0097E3DB /* _____UITests.m */; };
+		1FDA22351DC1EA9F0097E3DB /* JLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA22341DC1EA9F0097E3DB /* JLTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 		1FDA22001DC1A33B0097E3DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FDA22021DC1A33B0097E3DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
 		1FDA22031DC1A33B0097E3DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
-		1FDA22091DC1A33B0097E3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FDA220B1DC1A33B0097E3DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FDA22101DC1A33B0097E3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FDA22151DC1A33C0097E3DB /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +45,8 @@
 		1FDA22201DC1A33C0097E3DB /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDA22241DC1A33C0097E3DB /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		1FDA22261DC1A33C0097E3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FDA22331DC1EA9F0097E3DB /* JLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTabBarController.h; sourceTree = "<group>"; };
+		1FDA22341DC1EA9F0097E3DB /* JLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +106,6 @@
 		1FDA21FF1DC1A33B0097E3DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1FDA22081DC1A33B0097E3DB /* Main.storyboard */,
 				1FDA220B1DC1A33B0097E3DB /* Assets.xcassets */,
 				1FDA22101DC1A33B0097E3DB /* Info.plist */,
 				1FDA22001DC1A33B0097E3DB /* main.m */,
@@ -136,6 +136,8 @@
 			children = (
 				1FDA22021DC1A33B0097E3DB /* AppDelegate.h */,
 				1FDA22031DC1A33B0097E3DB /* AppDelegate.m */,
+				1FDA22331DC1EA9F0097E3DB /* JLTabBarController.h */,
+				1FDA22341DC1EA9F0097E3DB /* JLTabBarController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -249,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FDA220C1DC1A33B0097E3DB /* Assets.xcassets in Resources */,
-				1FDA220A1DC1A33B0097E3DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +277,7 @@
 			files = (
 				1FDA22041DC1A33B0097E3DB /* AppDelegate.m in Sources */,
 				1FDA22011DC1A33B0097E3DB /* main.m in Sources */,
+				1FDA22351DC1EA9F0097E3DB /* JLTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,17 +311,6 @@
 			targetProxy = 1FDA22211DC1A33C0097E3DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1FDA22081DC1A33B0097E3DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FDA22091DC1A33B0097E3DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1FDA22271DC1A33C0097E3DB /* Debug */ = {
@@ -505,6 +496,7 @@
 				1FDA222B1DC1A33C0097E3DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FDA222C1DC1A33C0097E3DB /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +505,7 @@
 				1FDA222E1DC1A33C0097E3DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FDA222F1DC1A33C0097E3DB /* Build configuration list for PBXNativeTarget "百思不得姐UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +514,7 @@
 				1FDA22311DC1A33C0097E3DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
