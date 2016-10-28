@@ -47,6 +47,7 @@
  @param selectedImage 选中状态下的图片
  */
 - (void)setupChildVC:(UIViewController *)vc withTabBarTitle:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage {
+    vc.view.backgroundColor = JLRandomColor;
     vc.tabBarItem.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:image];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
