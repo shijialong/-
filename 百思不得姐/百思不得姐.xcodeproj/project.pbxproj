@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F28AC9D1DC9E0EA00F5D053 /* JLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28AC9C1DC9E0EA00F5D053 /* JLTabBar.m */; };
 		1F4BD5A41DC6E787006603FE /* JLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4BD5A31DC6E787006603FE /* JLViewController.m */; };
 		1FDA22011DC1A33B0097E3DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA22001DC1A33B0097E3DB /* main.m */; };
 		1FDA22041DC1A33B0097E3DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA22031DC1A33B0097E3DB /* AppDelegate.m */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F28AC9B1DC9E0EA00F5D053 /* JLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTabBar.h; sourceTree = "<group>"; };
+		1F28AC9C1DC9E0EA00F5D053 /* JLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTabBar.m; sourceTree = "<group>"; };
 		1F35C9EA1DC332200012750B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		1F4BD5A21DC6E787006603FE /* JLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLViewController.h; sourceTree = "<group>"; };
 		1F4BD5A31DC6E787006603FE /* JLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLViewController.m; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 				1FDA22031DC1A33B0097E3DB /* AppDelegate.m */,
 				1FDA22331DC1EA9F0097E3DB /* JLTabBarController.h */,
 				1FDA22341DC1EA9F0097E3DB /* JLTabBarController.m */,
+				1F28AC9B1DC9E0EA00F5D053 /* JLTabBar.h */,
+				1F28AC9C1DC9E0EA00F5D053 /* JLTabBar.m */,
 				1F4BD5A21DC6E787006603FE /* JLViewController.h */,
 				1F4BD5A31DC6E787006603FE /* JLViewController.m */,
 			);
@@ -284,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F28AC9D1DC9E0EA00F5D053 /* JLTabBar.m in Sources */,
 				1FDA22041DC1A33B0097E3DB /* AppDelegate.m in Sources */,
 				1FDA22011DC1A33B0097E3DB /* main.m in Sources */,
 				1F4BD5A41DC6E787006603FE /* JLViewController.m in Sources */,

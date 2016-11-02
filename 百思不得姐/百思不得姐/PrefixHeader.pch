@@ -23,6 +23,7 @@
 #define JLLog(...)
 #endif
 
+#define JLLogFunc JLLog(@"%s",__func__)
 /*** 颜色 ***/
 #define JLColorA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
 #define JLColor(r, g, b) JLColorA((r), (g), (b), 255)
