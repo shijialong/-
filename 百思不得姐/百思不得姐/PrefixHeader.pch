@@ -15,19 +15,7 @@
 #ifdef __OBJC__
 
 #import "JLConfigMacro.h"
-
-/** 日志** */
-#ifdef DEBUG
-#define JLLog(...) NSLog(__VA_ARGS__)
-#else 
-#define JLLog(...)
-#endif
-
-#define JLLogFunc JLLog(@"%s",__func__)
-/*** 颜色 ***/
-#define JLColorA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
-#define JLColor(r, g, b) JLColorA((r), (g), (b), 255)
-#define JLRandomColor JLColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#import "UIView+JLView.h"
 
 #endif /* __OBJC__ */
 

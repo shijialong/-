@@ -21,9 +21,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //****设置所有UITabBarItem的属性*****//
+    /**** 设置所有UITabBarItem的属性 ****/
+    [self setupTabBarItemAttributes];
+    /**** 添加子控制器 ****/
+    [self addChildViewController];
+    /**** 设置tabBar ****/
+    [self setValue:[[JLTabBar alloc] init] forKeyPath:@"tabBar"];
+}
+
+/**
+ 设置所有UITabBarItem的文字属性
+ */
+- (void)setupTabBarItemAttributes {
     UITabBarItem *item = [UITabBarItem appearance];
-    
     //设置正常情况下字体属性
     NSMutableDictionary *normalAttrs = [NSMutableDictionary dictionary];
     normalAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:12];
@@ -34,17 +44,17 @@
     selectedAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:12];
     selectedAttrs[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
     [item setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
+}
 
-    /***设置子控制器*****/
+/**
+ 添加子控制器
+ */
+- (void)addChildViewController {
     [self setupChildVC:[[UIViewController alloc] init] withTabBarTitle:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
     [self setupChildVC:[[UIViewController alloc] init] withTabBarTitle:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
     [self setupChildVC:[[UIViewController alloc] init] withTabBarTitle:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
     [self setupChildVC:[[UIViewController alloc] init] withTabBarTitle:@"精华" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
-    
-    //设置tabBar
-    [self setValue:[[JLTabBar alloc] init] forKeyPath:@"tabBar"];
 }
-
 /**
  设置子控制器
 

@@ -23,8 +23,8 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     //按钮位置
-    CGFloat buttonW = self.frame.size.width / 5.0;
-    CGFloat buttonH = self.frame.size.height;
+    CGFloat buttonW = self.jl_width / 5.0;
+    CGFloat buttonH = self.jl_height;
     //按钮索引
     NSInteger buttonIndex = 0;
     for (UIView *subview in self.subviews) {
@@ -42,7 +42,7 @@
     }
     //设置中间的发布按钮
     self.publishBtn.frame = CGRectMake(0, 0, buttonW, buttonH);
-    self.publishBtn.center = CGPointMake(self.frame.size.width * 0.5, self.frame.size.height * 0.5);
+    self.publishBtn.center = CGPointMake(self.jl_width * 0.5, self.jl_height * 0.5);
 }
 
 

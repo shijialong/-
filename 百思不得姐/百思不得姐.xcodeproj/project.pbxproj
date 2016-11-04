@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F28AC9D1DC9E0EA00F5D053 /* JLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28AC9C1DC9E0EA00F5D053 /* JLTabBar.m */; };
 		1F4BD5A41DC6E787006603FE /* JLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4BD5A31DC6E787006603FE /* JLViewController.m */; };
+		1FAD1F591DCC2EF30088824E /* UIView+JLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD1F581DCC2EF30088824E /* UIView+JLView.m */; };
 		1FDA22011DC1A33B0097E3DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA22001DC1A33B0097E3DB /* main.m */; };
 		1FDA22041DC1A33B0097E3DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA22031DC1A33B0097E3DB /* AppDelegate.m */; };
 		1FDA220C1DC1A33B0097E3DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA220B1DC1A33B0097E3DB /* Assets.xcassets */; };
@@ -41,6 +42,8 @@
 		1F4BD5A21DC6E787006603FE /* JLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLViewController.h; sourceTree = "<group>"; };
 		1F4BD5A31DC6E787006603FE /* JLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLViewController.m; sourceTree = "<group>"; };
 		1F70E4631DC3534600B29FC2 /* JLConfigMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLConfigMacro.h; sourceTree = "<group>"; };
+		1FAD1F571DCC2EF30088824E /* UIView+JLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JLView.h"; sourceTree = "<group>"; };
+		1FAD1F581DCC2EF30088824E /* UIView+JLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JLView.m"; sourceTree = "<group>"; };
 		1FDA21FC1DC1A33B0097E3DB /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDA22001DC1A33B0097E3DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FDA22021DC1A33B0097E3DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -152,6 +155,8 @@
 				1F28AC9C1DC9E0EA00F5D053 /* JLTabBar.m */,
 				1F4BD5A21DC6E787006603FE /* JLViewController.h */,
 				1F4BD5A31DC6E787006603FE /* JLViewController.m */,
+				1FAD1F571DCC2EF30088824E /* UIView+JLView.h */,
+				1FAD1F581DCC2EF30088824E /* UIView+JLView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 				1FDA22011DC1A33B0097E3DB /* main.m in Sources */,
 				1F4BD5A41DC6E787006603FE /* JLViewController.m in Sources */,
 				1FDA22351DC1EA9F0097E3DB /* JLTabBarController.m in Sources */,
+				1FAD1F591DCC2EF30088824E /* UIView+JLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
