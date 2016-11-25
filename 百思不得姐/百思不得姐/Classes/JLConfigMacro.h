@@ -26,5 +26,6 @@
 #define JLColorA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
 #define JLColor(r, g, b) JLColorA((r), (g), (b), 255)
 #define JLRandomColor JLColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#define JLConmmenBgColor JLColor(206, 206, 206)
 
 #endif /* JLConfigMacro_h */

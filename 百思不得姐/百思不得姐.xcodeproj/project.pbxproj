@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6CBEDF1DE813B9007D18A7 /* JLEssenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CBEDE1DE813B9007D18A7 /* JLEssenceVC.m */; };
+		1F6CBEE21DE813DF007D18A7 /* JLFollowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CBEE11DE813DF007D18A7 /* JLFollowVC.m */; };
+		1F6CBEE51DE8140F007D18A7 /* JLMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CBEE41DE8140F007D18A7 /* JLMineVC.m */; };
+		1F6CBEE81DE81426007D18A7 /* JLNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CBEE71DE81426007D18A7 /* JLNewVC.m */; };
 		1FC425911DE2FB07005E0CD3 /* UIView+JLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC425891DE2FB07005E0CD3 /* UIView+JLView.m */; };
 		1FC425921DE2FB07005E0CD3 /* JLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4258C1DE2FB07005E0CD3 /* JLTabBar.m */; };
 		1FC425931DE2FB07005E0CD3 /* JLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4258E1DE2FB07005E0CD3 /* JLTabBarController.m */; };
-		1FC425941DE2FB07005E0CD3 /* JLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC425901DE2FB07005E0CD3 /* JLViewController.m */; };
 		1FDA22011DC1A33B0097E3DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA22001DC1A33B0097E3DB /* main.m */; };
 		1FDA22041DC1A33B0097E3DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA22031DC1A33B0097E3DB /* AppDelegate.m */; };
 		1FDA220C1DC1A33B0097E3DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA220B1DC1A33B0097E3DB /* Assets.xcassets */; };
@@ -37,14 +40,20 @@
 
 /* Begin PBXFileReference section */
 		1F35C9EA1DC332200012750B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1F6CBEDD1DE813B9007D18A7 /* JLEssenceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLEssenceVC.h; sourceTree = "<group>"; };
+		1F6CBEDE1DE813B9007D18A7 /* JLEssenceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLEssenceVC.m; sourceTree = "<group>"; };
+		1F6CBEE01DE813DF007D18A7 /* JLFollowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLFollowVC.h; sourceTree = "<group>"; };
+		1F6CBEE11DE813DF007D18A7 /* JLFollowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLFollowVC.m; sourceTree = "<group>"; };
+		1F6CBEE31DE8140F007D18A7 /* JLMineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMineVC.h; sourceTree = "<group>"; };
+		1F6CBEE41DE8140F007D18A7 /* JLMineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMineVC.m; sourceTree = "<group>"; };
+		1F6CBEE61DE81426007D18A7 /* JLNewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLNewVC.h; sourceTree = "<group>"; };
+		1F6CBEE71DE81426007D18A7 /* JLNewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLNewVC.m; sourceTree = "<group>"; };
 		1FC425881DE2FB07005E0CD3 /* UIView+JLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JLView.h"; sourceTree = "<group>"; };
 		1FC425891DE2FB07005E0CD3 /* UIView+JLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JLView.m"; sourceTree = "<group>"; };
 		1FC4258B1DE2FB07005E0CD3 /* JLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTabBar.h; sourceTree = "<group>"; };
 		1FC4258C1DE2FB07005E0CD3 /* JLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTabBar.m; sourceTree = "<group>"; };
 		1FC4258D1DE2FB07005E0CD3 /* JLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTabBarController.h; sourceTree = "<group>"; };
 		1FC4258E1DE2FB07005E0CD3 /* JLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTabBarController.m; sourceTree = "<group>"; };
-		1FC4258F1DE2FB07005E0CD3 /* JLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLViewController.h; sourceTree = "<group>"; };
-		1FC425901DE2FB07005E0CD3 /* JLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLViewController.m; sourceTree = "<group>"; };
 		1FC425971DE2FC10005E0CD3 /* JLConfigMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLConfigMacro.h; sourceTree = "<group>"; };
 		1FDA21FC1DC1A33B0097E3DB /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDA22001DC1A33B0097E3DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -150,8 +159,6 @@
 				1FC4258C1DE2FB07005E0CD3 /* JLTabBar.m */,
 				1FC4258D1DE2FB07005E0CD3 /* JLTabBarController.h */,
 				1FC4258E1DE2FB07005E0CD3 /* JLTabBarController.m */,
-				1FC4258F1DE2FB07005E0CD3 /* JLViewController.h */,
-				1FC425901DE2FB07005E0CD3 /* JLViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,6 +166,8 @@
 		1FC425981DE2FC62005E0CD3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1F6CBEDD1DE813B9007D18A7 /* JLEssenceVC.h */,
+				1F6CBEDE1DE813B9007D18A7 /* JLEssenceVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -180,6 +189,8 @@
 		1FC4259B1DE2FC85005E0CD3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1F6CBEE01DE813DF007D18A7 /* JLFollowVC.h */,
+				1F6CBEE11DE813DF007D18A7 /* JLFollowVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -201,6 +212,8 @@
 		1FC4259E1DE2FC93005E0CD3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1F6CBEE31DE8140F007D18A7 /* JLMineVC.h */,
+				1F6CBEE41DE8140F007D18A7 /* JLMineVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -222,6 +235,8 @@
 		1FC425A11DE2FCA1005E0CD3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1F6CBEE61DE81426007D18A7 /* JLNewVC.h */,
+				1F6CBEE71DE81426007D18A7 /* JLNewVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -305,9 +320,9 @@
 				1FDA22031DC1A33B0097E3DB /* AppDelegate.m */,
 				1FC425971DE2FC10005E0CD3 /* JLConfigMacro.h */,
 				1FC425821DE2FB07005E0CD3 /* Essence */,
+				1FC425851DE2FB07005E0CD3 /* New */,
 				1FC425831DE2FB07005E0CD3 /* Follow */,
 				1FC425841DE2FB07005E0CD3 /* Mine */,
-				1FC425851DE2FB07005E0CD3 /* New */,
 				1FC425861DE2FB07005E0CD3 /* Other */,
 			);
 			path = Classes;
@@ -447,10 +462,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FDA22041DC1A33B0097E3DB /* AppDelegate.m in Sources */,
+				1F6CBEDF1DE813B9007D18A7 /* JLEssenceVC.m in Sources */,
+				1F6CBEE81DE81426007D18A7 /* JLNewVC.m in Sources */,
 				1FC425931DE2FB07005E0CD3 /* JLTabBarController.m in Sources */,
 				1FC425911DE2FB07005E0CD3 /* UIView+JLView.m in Sources */,
+				1F6CBEE21DE813DF007D18A7 /* JLFollowVC.m in Sources */,
+				1F6CBEE51DE8140F007D18A7 /* JLMineVC.m in Sources */,
 				1FDA22011DC1A33B0097E3DB /* main.m in Sources */,
-				1FC425941DE2FB07005E0CD3 /* JLViewController.m in Sources */,
 				1FC425921DE2FB07005E0CD3 /* JLTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

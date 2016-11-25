@@ -1,13 +1,13 @@
 //
-//  JLViewController.h
+//  JLEssenceVC.h
 //  百思不得姐
 //
-//  Created by shijialong on 2016/10/31.
+//  Created by shijialong on 2016/11/25.
 //  Copyright © 2016年 shijialong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface JLViewController : UIViewController
+@interface JLEssenceVC : UIViewController
 
 @end
