@@ -11,6 +11,7 @@
 		1F6CBEE21DE813DF007D18A7 /* JLFollowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CBEE11DE813DF007D18A7 /* JLFollowVC.m */; };
 		1F6CBEE51DE8140F007D18A7 /* JLMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CBEE41DE8140F007D18A7 /* JLMineVC.m */; };
 		1F6CBEE81DE81426007D18A7 /* JLNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CBEE71DE81426007D18A7 /* JLNewVC.m */; };
+		1FA2317A1E3498EA00C0798F /* UIBarButtonItem+JLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA231791E3498EA00C0798F /* UIBarButtonItem+JLExtension.m */; };
 		1FC425911DE2FB07005E0CD3 /* UIView+JLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC425891DE2FB07005E0CD3 /* UIView+JLView.m */; };
 		1FC425921DE2FB07005E0CD3 /* JLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4258C1DE2FB07005E0CD3 /* JLTabBar.m */; };
 		1FC425931DE2FB07005E0CD3 /* JLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4258E1DE2FB07005E0CD3 /* JLTabBarController.m */; };
@@ -48,6 +49,8 @@
 		1F6CBEE41DE8140F007D18A7 /* JLMineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMineVC.m; sourceTree = "<group>"; };
 		1F6CBEE61DE81426007D18A7 /* JLNewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLNewVC.h; sourceTree = "<group>"; };
 		1F6CBEE71DE81426007D18A7 /* JLNewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLNewVC.m; sourceTree = "<group>"; };
+		1FA231781E3498EA00C0798F /* UIBarButtonItem+JLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JLExtension.h"; sourceTree = "<group>"; };
+		1FA231791E3498EA00C0798F /* UIBarButtonItem+JLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JLExtension.m"; sourceTree = "<group>"; };
 		1FC425881DE2FB07005E0CD3 /* UIView+JLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JLView.h"; sourceTree = "<group>"; };
 		1FC425891DE2FB07005E0CD3 /* UIView+JLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JLView.m"; sourceTree = "<group>"; };
 		1FC4258B1DE2FB07005E0CD3 /* JLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTabBar.h; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 			children = (
 				1FC425881DE2FB07005E0CD3 /* UIView+JLView.h */,
 				1FC425891DE2FB07005E0CD3 /* UIView+JLView.m */,
+				1FA231781E3498EA00C0798F /* UIBarButtonItem+JLExtension.h */,
+				1FA231791E3498EA00C0798F /* UIBarButtonItem+JLExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -464,6 +469,7 @@
 				1FDA22041DC1A33B0097E3DB /* AppDelegate.m in Sources */,
 				1F6CBEDF1DE813B9007D18A7 /* JLEssenceVC.m in Sources */,
 				1F6CBEE81DE81426007D18A7 /* JLNewVC.m in Sources */,
+				1FA2317A1E3498EA00C0798F /* UIBarButtonItem+JLExtension.m in Sources */,
 				1FC425931DE2FB07005E0CD3 /* JLTabBarController.m in Sources */,
 				1FC425911DE2FB07005E0CD3 /* UIView+JLView.m in Sources */,
 				1F6CBEE21DE813DF007D18A7 /* JLFollowVC.m in Sources */,

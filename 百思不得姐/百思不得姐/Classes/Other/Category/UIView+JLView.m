@@ -10,6 +10,7 @@
 
 @implementation UIView (JLView)
 
+#pragma mark - getter
 - (CGFloat)jl_width {
     return self.frame.size.width;
 }
@@ -49,6 +50,11 @@
     return CGRectGetMaxX(self.frame);
 }
 
+- (CGSize)jl_size {
+    return self.frame.size;
+}
+
+#pragma mark - setter
 
 - (void)setJl_width:(CGFloat)jl_width {
     CGRect frame = self.frame;
@@ -93,6 +99,13 @@
 - (void)setJl_bottom:(CGFloat)jl_bottom {
     self.jl_y = jl_bottom - self.jl_height;
 }
+
+- (void)setJl_size:(CGSize)jl_size {
+    CGRect frame = self.frame;
+    frame.size = jl_size;
+    self.frame = frame;
+}
+
 
 @end
 

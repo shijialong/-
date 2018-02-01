@@ -16,6 +16,7 @@
 
 #import "JLConfigMacro.h"
 #import "UIView+JLView.h"
+#import "UIBarButtonItem+JLExtension.h"
 
 #endif /* __OBJC__ */
 

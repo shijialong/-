@@ -19,5 +19,7 @@
 @property (nonatomic, assign) CGFloat jl_bottom;
 @property (nonatomic, assign) CGFloat jl_right;
 
+@property (nonatomic, assign) CGSize jl_size;
+
 
 @end

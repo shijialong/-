@@ -57,7 +57,7 @@
     [self setupChildVC:[[UINavigationController alloc] initWithRootViewController:[[JLEssenceVC alloc] init]] title:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
     [self setupChildVC:[[UINavigationController alloc] initWithRootViewController:[[JLNewVC alloc] init]] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
     [self setupChildVC:[[UINavigationController alloc] initWithRootViewController:[[JLFollowVC alloc] init]] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
-    [self setupChildVC:[[UINavigationController alloc] initWithRootViewController:[[JLEssenceVC alloc] init]] title:@"我的" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
+    [self setupChildVC:[[UINavigationController alloc] initWithRootViewController:[[JLMineVC alloc] init]] title:@"我的" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
 }
 /**
  设置子控制器
@@ -68,7 +68,6 @@
  @param selectedImage 选中状态下的图片
  */
 - (void)setupChildVC:(UIViewController *)vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage {
-    vc.view.backgroundColor = JLRandomColor;
     vc.tabBarItem.title = title;
     if (image.length) {
         vc.tabBarItem.image = [UIImage imageNamed:image];
